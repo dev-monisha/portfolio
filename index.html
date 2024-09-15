@@ -5,48 +5,394 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <!--font family-->
     <!-- font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <!--bootstrap css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--fontawesome icons-->
+    <script src="https://kit.fontawesome.com/5af7de6c7a.js" crossorigin="anonymous"></script>
     <!--css-->
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <!--navigation-->
-    <nav class="navbar navbar-expand-lg nav-sec">
-        <div class="container">
-            <a class="navbar-brand text-white" href="#">Portfolio.</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto mb-2 mb-lg-0 navigation-menu">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Projects</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <button class="btn btn-primary" type="submit">Download Resume</button>
-                </form>
+    <header>
+        <!--navigation-->
+        <nav class="navbar navbar-expand-lg nav-sec">
+            <div class="container">
+                <a class="navbar-brand text-white" href="#">Portfolio.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon menubar"><i class="fa-solid fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0 navigation-menu">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Projects</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-primary" type="submit">Download Resume</button>
+                    </form>
+                </div>
             </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <!--banner-->
+            <div class="banner-sec para-text header-text">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-md-6 mx-auto">
+                            <div class="banner-text">
+                                <h1>Hi <img src="./image/waving.png">, I'm <span class="hgt-text">UI/UX Developer</span>
+                                    <br /> Monisha
+                                </h1>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is
+                                    simply
+                                    dummy text of the printing and typesetting industry. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <!--services-->
+            <div class="service-sec para-text header-text">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12  my-auto">
+                            <div class="service-text">
+                                <h2>My <span class="hgt-text">Services</span></h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is
+                                    simply
+                                    dummy text of the printing and typesetting industry.Lorem</p>
+                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem
+                                    Ipsum is
+                                    simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text
+                                    of
+                                    the printing and typesetting industry.</p>
+                                <button class="btn click-btn btn-primary">Read More</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="services">
+                                <div class="row g-3">
+                                    <div class="col-md-6 mt-auto">
+                                        <div class="servc-category">
+                                            <div class="servc">
+                                                <img class="servc-img" src="./image/coding.png" alt="image" />
+                                            </div>
+                                            <h3>Custom Web Design</h3>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting Lorem
+                                                typesetting industry.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="servc-category">
+                                            <div class="servc">
+                                                <img class="servc-img" src="./image/responsive.png" alt="image" />
+                                            </div>
+                                            <h3>Responsive Design</h3>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting Lorem
+                                                Ipsum
+                                                is simply dummy text of the printing and typesetting</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="servc-category">
+                                            <div class="servc">
+                                                <img class="servc-img" src="./image/cms.png" alt="image" />
+                                            </div>
+                                            <h3>CMS Integration</h3>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting Lorem
+                                                Ipsum
+                                                is simply dummy text of the printing and typesetting </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-auto">
+                                        <div class="servc-category">
+                                            <div class="servc">
+                                                <img class="servc-img" src="./image/singlePage.png" alt="image" />
+                                            </div>
+                                            <h3>Single pge Application</h3>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting Lorem
+                                                Ipsum
+                                                is simply dummy text of the printing</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <!--counter-->
+            <div class="counter-sec">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-12 mx-auto">
+                            <div class="row g-3">
+                                <div class="col-lg-4 col-md-4">
+                                    <div class="count-txt">
+                                        <h4>3+</h4>
+                                        <p>Years Experience</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4">
+                                    <div class="count-txt">
+                                        <h4>10+</h4>
+                                        <p>Projects</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4">
+                                    <div class="count-txt">
+                                        <h4>6+</h4>
+                                        <p>Skills</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <!--about-->
+            <div class="about-sec para-text header-text">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="about-title">
+                                <h2>More <span class="hgt-text">About</span> Me</h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <div class="edu-title">
+                                <h3>My Education</h3>
+                            </div>
+                            <div class="row gy-3">
+                                <div class="col-md-12">
+                                    <div>
+                                        <div class="edu">
+                                            <div>
+                                                <h5>2014-2018</h5>
+                                                <p>BE (ECE)</p>
+                                                <p>Kings Engineering College, Chennai.</p>
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-circle-dot"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div>
+                                        <div class="edu">
+                                            <div>
+                                                <h5>2012-2014</h5>
+                                                <p>HSC</p>
+                                                <p>SMRV Higher Secondary School</p>
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-circle-dot"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div>
+                                        <div class="edu">
+                                            <div>
+                                                <h5>2010-2012</h5>
+                                                <p>SSLC</p>
+                                                <p>SMRV Higher Secondary School</p>
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-circle-dot"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-12">
+                            <div class="exp-section">
+                                <div class="edu-title">
+                                    <h3>My Experience</h3>
+                                </div>
+                                <div class="row gy-2">
+                                    <div class="col-md-12">
+                                        <div class="exp">
+                                            <div>
+                                                <div class="d-flex justify-content-between">
+                                                    <h5 class="text-white">Scope Thinkers Private Limited | UI UX Developer
+                                                    </h5>
+                                                    <h5>Feb 2023 - Till Now</h5>
+                                                </div>
+                                                <ul>
+                                                    <li> <i class="fa-solid fa-caret-left"></i> Restructured web design of a
+                                                        local business page to implement google Ad-sense.</li>
+                                                    <li> <i class="fa-solid fa-caret-left"></i> Designed eye-catching
+                                                        website
+                                                        renovation to drive 20% more traffic to clients websites.</li>
+                                                    <li> <i class="fa-solid fa-caret-left"></i> Worked 50% developed 50%
+                                                        task
+                                                        mangement.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="exp">
+                                            <div>
+                                                <div class="d-flex justify-content-between">
+                                                    <h5 class="text-white">Websneek IT Solution | Web Designer</h5>
+                                                    <h5>June 2021 - Jan 2023</h5>
+                                                </div>
+                                                <ul>
+                                                    <li> <i class="fa-solid fa-caret-left"></i> Develop and build static
+                                                        UI/UX
+                                                        to support large-scale CMS and E-Commerce platform projects in Agile
+                                                        environments for admin content management.</li>
+                                                    <li> <i class="fa-solid fa-caret-left"></i> implemented and maintained
+                                                        front-end web applications, resulting in a 10% increase in website
+                                                        traffic and convrsion rates.</li>
+                                                    <li> <i class="fa-solid fa-caret-left"></i> Developed and executed
+                                                        front-end
+                                                        developemnt strategies, resulting in a 15% increase in website
+                                                        performance.</li>
+                                                    <li> <i class="fa-solid fa-caret-left"></i> Worked with cross-functional
+                                                        teams to develop and execute on-time and on-budget projects nd
+                                                        inititives</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <!--skills-->
+            <div class="skill-sec para-text header-text">
+                <div class="container">
+                    <div class="row g-3">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="edu-title">
+                                <h3>Technical Skills</h3>
+                            </div>
+                            <div class="skill-set">
+                                <div class="tech-logo">
+                                    <img src="./image/html.webp" alt="image" />
+                                </div>
+                                <div class="tech-logo">
+                                    <img src="./image/css.webp" alt="image" />
+                                </div>
+                                <div class="tech-logo">
+                                    <img src="./image/bootstrap.webp" alt="image" />
+                                </div>
+                                <div class="tech-logo">
+                                    <img src="./image/bootstrap.webp" alt="image" />
+                                </div>
+                                <div class="tech-logo">
+                                    <img src="./image/jquery.webp" alt="image" />
+                                </div>
+                                <div class="tech-logo">
+                                    <img src="./image/js.webp" alt="image" />
+                                </div>
+                                <div class="tech-logo">
+                                    <img src="./image/react.webp" alt="image" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="edu-title">
+                                <h3>Other Skills</h3>
+                            </div>
+                            <div class="skill-set">
+                                <div class="tech-logo">
+                                    <img src="./image/wordpress.webp" alt="image" />
+                                </div>
+                                <div class="tech-logo">
+                                    <img src="./image/figma.webp" alt="image" />
+                                </div>
+                                <div class="tech-logo">
+                                    <img src="./image/photoshop.webp" alt="image" />
+                                </div>
+                                <div class="tech-logo">
+                                    <img src="./image/sourceTree.webp" alt="image" />
+                                </div>
+                                <div class="tech-logo">
+                                    <img src="./image/git.webp" alt="image" />
+                                </div>
+                                <div class="tech-logo">
+                                    <img src="./image/java.webp" alt="image" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <!--projects-->
+            <div class="project-sec header-text">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="project-title">
+                                <h2>My <span class="hgt-text">Latest</span> Projects</h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <!--footer-->
+        <div class="footer-sec">
+            <p>copyright &#169; 2024 <span>Monisha</span> all rights reserved</p>
         </div>
-    </nav>
+    </footer>
 
     <!--bootstrapjs-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
