@@ -88,6 +88,9 @@ body {
 
 .menubar i{
   color: #fff;
+}
+
+.menubar{
   border: 1px solid var(--primary-color);
   background-color: var(--primary-color);
   padding: 6px 10px;
