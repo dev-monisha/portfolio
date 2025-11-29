@@ -112,7 +112,8 @@ body {
 .banner-sec {
   background: var(--bg-color);
   position: relative;
-  height: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
 }
 
