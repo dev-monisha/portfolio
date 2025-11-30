@@ -98,14 +98,15 @@ body {
 }
 
 /*footer*/
-.footer-sec {
+/* .footer-sec {
   background: var(--bg-color);
-}
+} */
 
 .footer-sec p {
   color: #fff;
   font-size: var(--text-size);
   text-align: center;
+  margin-bottom: 0px;
 }
 
 /* banner */
@@ -316,6 +317,39 @@ body {
   width: 100%;
 }
 
+.project-sec-con .card{
+  background-color: var(--bg-color) !important;
+  border: 1px solid var(--border-color) !important;
+}
+
+ .project-sec-con .card-text {
+   color: var(--text-color);
+   font-size: var(--text-size);
+   line-height: 25px;
+ }
+
+ /* Sticky Header */
+ header {
+   position: sticky;
+   top: 0;
+   background: #333;
+   color: white;
+   font-size: 20px;
+   z-index: 1000;
+   /*it stays on top */
+ }
+
+/* sticky bottom */
+footer {
+  position: sticky;
+  bottom: 0;
+  background: #333;
+  color: white;
+  font-size: 20px;
+  z-index: 1000;
+  /*it stays on bottom */
+  padding: 20px 10px;
+}
 @media screen and (max-width:1000px) {
   .services{
     margin-top:50px;
