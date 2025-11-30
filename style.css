@@ -97,6 +97,15 @@ body {
   border-radius: 6px;
 }
 
+.nav-sec .nav-link:focus, .nav-sec .nav-link:hover {
+    color: #fff !important;
+}
+
+/* Active menu color */
+    nav a.active {
+      color: var(--text-dark); /* change to your color */
+    }
+
 /*footer*/
 /* .footer-sec {
   background: var(--bg-color);
